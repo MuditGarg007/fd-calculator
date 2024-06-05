@@ -31,9 +31,9 @@ col3,col4,col5 = st.columns([2.5,2.5,5])
 if(st.button("Calculate")):
     with col3:
         
-        st.write("Invested Amount" + str(principal))
-        st.write("Est. returns" + str(amount-principal))
-        st.write("Total Value" + str(amount))
+        st.write("Invested Amount: " + str(principal))
+        st.write("Est. returns: " + str(amount-principal))
+        st.write("Total Value: " + str(amount))
 
 
         
